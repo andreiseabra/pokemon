@@ -1,0 +1,16 @@
+{
+  "node": {
+    "40067079b12855e8b5948dfce504375be559d814f7": {
+      "workers": {
+        "app/pokemon/[id]/page": {
+          "moduleId": "[project]/.next-internal/server/app/pokemon/[id]/page/actions.js { ACTIONS_MODULE0 => \"[project]/app/pokemon/[id]/page.jsx [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "default",
+      "filename": "app/pokemon/[id]/page.jsx"
+    }
+  },
+  "edge": {}
+}

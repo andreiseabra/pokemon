@@ -1,0 +1,16 @@
+{
+  "node": {
+    "40f25caf42a061c109188749dbc4478605b3bd5fc9": {
+      "workers": {
+        "app/pokemon/[id]/page": {
+          "moduleId": 6783,
+          "async": false,
+          "codeHash": null
+        }
+      },
+      "exportedName": "default",
+      "filename": "app/pokemon/[id]/page.jsx"
+    }
+  },
+  "edge": {}
+}

@@ -1,0 +1,6 @@
+{
+  "/api/favoritos/route": "app/api/favoritos/route.js",
+  "/page": "app/page.js",
+  "/pokemon/[id]/page": "app/pokemon/[id]/page.js",
+  "/sobre/page": "app/sobre/page.js"
+}

@@ -1,0 +1,53 @@
+[
+  {
+    "route": "/",
+    "firstLoadUncompressedJsBytes": 464931,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/3fntmmi971322.js",
+      ".next/static/chunks/2hvur13jjnhy5.js",
+      ".next/static/chunks/310vm2bl3xxpt.js",
+      ".next/static/chunks/19mx3mg6lkumu.js",
+      ".next/static/chunks/39u3ld3zqxqqm.js",
+      ".next/static/chunks/2hwwa947uqpa1.js",
+      ".next/static/chunks/turbopack-2iduhnkpreaf1.js"
+    ]
+  },
+  {
+    "route": "/pokemon/[id]",
+    "firstLoadUncompressedJsBytes": 464290,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/3fntmmi971322.js",
+      ".next/static/chunks/006ad8j32nj4n.js",
+      ".next/static/chunks/310vm2bl3xxpt.js",
+      ".next/static/chunks/19mx3mg6lkumu.js",
+      ".next/static/chunks/39u3ld3zqxqqm.js",
+      ".next/static/chunks/2hwwa947uqpa1.js",
+      ".next/static/chunks/turbopack-2iduhnkpreaf1.js"
+    ]
+  },
+  {
+    "route": "/sobre",
+    "firstLoadUncompressedJsBytes": 462136,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/3fntmmi971322.js",
+      ".next/static/chunks/22i43cg4l4-dq.js",
+      ".next/static/chunks/310vm2bl3xxpt.js",
+      ".next/static/chunks/19mx3mg6lkumu.js",
+      ".next/static/chunks/39u3ld3zqxqqm.js",
+      ".next/static/chunks/2hwwa947uqpa1.js",
+      ".next/static/chunks/turbopack-2iduhnkpreaf1.js"
+    ]
+  },
+  {
+    "route": "/_not-found",
+    "firstLoadUncompressedJsBytes": 453268,
+    "firstLoadChunkPaths": [
+      ".next/static/chunks/3fntmmi971322.js",
+      ".next/static/chunks/310vm2bl3xxpt.js",
+      ".next/static/chunks/19mx3mg6lkumu.js",
+      ".next/static/chunks/39u3ld3zqxqqm.js",
+      ".next/static/chunks/2hwwa947uqpa1.js",
+      ".next/static/chunks/turbopack-2iduhnkpreaf1.js"
+    ]
+  }
+]
