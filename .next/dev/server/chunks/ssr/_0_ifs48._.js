@@ -29,7 +29,7 @@ function Home() {
     // executa uma unica vez durante a amontagem do componente
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         async function getRegioes() {
-            let resposta = await fetch("https://pokemon.danielpimentel.com.br/v1/regioes");
+            let resposta = await fetch("/api/regioes");
             let dados = await resposta.json();
             console.log(dados);
             setRegioes(dados.regioes);
@@ -48,7 +48,7 @@ function Home() {
     // chama toda vez que variavel região é alterada
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         async function getPokemons() {
-            let resposta = await fetch(`https://pokemon.danielpimentel.com.br/v1/pokemon/geracao/${regiao}/151/1`);
+            let resposta = await fetch(`/api/geracao/${regiao}`);
             let dados = await resposta.json();
             setPokemons(dados.pokemon);
         }

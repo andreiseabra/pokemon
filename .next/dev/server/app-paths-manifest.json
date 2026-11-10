@@ -1,6 +1,8 @@
 {
   "/api/favoritos/route": "app/api/favoritos/route.js",
+  "/api/geracao/[geracao]/route": "app/api/geracao/[geracao]/route.js",
+  "/api/pokemon/[numero]/route": "app/api/pokemon/[numero]/route.js",
+  "/api/regioes/route": "app/api/regioes/route.js",
   "/page": "app/page.js",
-  "/pokemon/[id]/page": "app/pokemon/[id]/page.js",
-  "/sobre/page": "app/sobre/page.js"
+  "/pokemon/[id]/page": "app/pokemon/[id]/page.js"
 }

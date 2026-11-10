@@ -1,0 +1,3 @@
+{
+  "/api/geracao/[geracao]/route": "app/api/geracao/[geracao]/route.js"
+}

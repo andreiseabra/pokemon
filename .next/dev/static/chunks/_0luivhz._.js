@@ -22,7 +22,7 @@ function FUllPokemon({ numero }) {
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
         "FUllPokemon.useEffect": ()=>{
             async function getPokemon() {
-                let resposta = await fetch(`https://pokemon.danielpimentel.com.br/v1/pokemon/numero/${numero}`);
+                let resposta = await fetch(`/api/pokemon/${numero}`);
                 let dados = await resposta.json();
                 setPokemon(dados.pokemon);
             }

@@ -21,7 +21,7 @@ export default function Home() {
   // executa uma unica vez durante a amontagem do componente
   useEffect(()=>{
     async function getRegioes(){
-      let resposta = await fetch ("https://pokemon.danielpimentel.com.br/v1/regioes")
+      let resposta = await fetch ("/api/regioes")
       let dados = await resposta.json()
       console.log(dados)
       setRegioes(dados.regioes)
@@ -43,7 +43,7 @@ export default function Home() {
   // chama toda vez que variavel região é alterada
   useEffect(()=>{
     async function getPokemons(){
-      let resposta = await fetch (`https://pokemon.danielpimentel.com.br/v1/pokemon/geracao/${regiao}/151/1`)
+      let resposta = await fetch (`/api/geracao/${regiao}`)
       let dados = await resposta.json()
       setPokemons(dados.pokemon)
     }

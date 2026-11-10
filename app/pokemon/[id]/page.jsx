@@ -9,7 +9,7 @@ export default async function PokemonPage({ params }) {
 
     // Pegar as informações deste pokemon
     // e montar uma página completa
-    // https://pokemon.danielpimentel.com.br/v1/pokemon/numero/15
+    // /api/pokemon/15
     
     return (
         <div>
